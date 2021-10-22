@@ -1,0 +1,90 @@
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #eeeeee;
+}
+
+.rock-paper-scissors {
+  height: 100vh;
+  background-image: radial-gradient(#1f3756, #141539);
+  position: relative;
+}
+.rock-paper-scissors__scoreboard {
+  padding: 2rem 0;
+}
+.rock-paper-scissors__container-scoreboard {
+  border: 1px solid #606e85;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 360px;
+}
+.rock-paper-scissors__game-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.rock-paper-scissors__score {
+  position: relative;
+  background-color: #eeeeee;
+  border-radius: 8px;
+  width: 90px;
+}
+.rock-paper-scissors__score-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rock-paper-scissors__score-text > p {
+  color: #1f3756;
+  text-align: center;
+}
+.rock-paper-scissors__score-label {
+  font-size: 0.7rem;
+}
+.rock-paper-scissors__score-point {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.rock-paper-scissors__content {
+  display: flex;
+}
+.rock-paper-scissors__card {
+  border-radius: 50%;
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+.rock-paper-scissors__card--paper {
+  background: linear-gradient(90deg, #4865f4, #5671f5);
+}
+.rock-paper-scissors__card--rock {
+  background: linear-gradient(90deg, #dc2e4e, #dd405d);
+}
+.rock-paper-scissors__card--scissors {
+  background: linear-gradient(90deg, #ec9e0e, #eca922);
+}
+.rock-paper-scissors__card-image {
+  background-color: #eeeeee;
+  border: 4px solid #cccccc;
+  border-radius: 50%;
+  height: 80px;
+  left: 50%;
+  padding: 30px 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 80px;
+}
+.rock-paper-scissors__rules {
+  background-color: transparent;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 0.4rem 1.5rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
