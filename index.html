@@ -29,14 +29,34 @@
       </div>
     </section>
     <section class="rock-paper-scissors__content">
-      <div class="rock-paper-scissors__card rock-paper-scissors__card--paper">
-        <img class="rock-paper-scissors__card-image" src="./images/icon-paper.svg" alt="paper-image">
+      <div class="rock-paper-scissors__content-game">
+        <div class="rock-paper-scissors__card rock-paper-scissors__card--paper">
+          <img class="rock-paper-scissors__card-image" src="./images/icon-paper.svg" alt="paper-image">
+        </div>
+        <div class="rock-paper-scissors__card rock-paper-scissors__card--rock">
+          <img class="rock-paper-scissors__card-image" src="./images/icon-rock.svg" alt="paper-image">
+        </div>
+        <div class="rock-paper-scissors__card rock-paper-scissors__card--scissors">
+          <img class="rock-paper-scissors__card-image" src="./images/icon-scissors.svg" alt="paper-image">
+        </div>
       </div>
-      <div class="rock-paper-scissors__card rock-paper-scissors__card--rock">
-        <img class="rock-paper-scissors__card-image" src="./images/icon-rock.svg" alt="paper-image">
-      </div>
-      <div class="rock-paper-scissors__card rock-paper-scissors__card--scissors">
-        <img class="rock-paper-scissors__card-image" src="./images/icon-scissors.svg" alt="paper-image">
+      <div class="rock-paper-scissors__content-result">
+        <div>
+          <p class="rock-paper-scissors__label-picked">YOU PICKED</p>
+          <div class="rock-paper-scissors__card rock-paper-scissors__card--paper">
+            <img class="rock-paper-scissors__card-image" src="./images/icon-paper.svg" alt="paper-image">
+          </div>
+        </div>
+        <div>
+          <p class="rock-paper-scissors__label-result">YOU WIN</p>
+          <button class="rock-paper-scissors__play-again">PLAY AGAIN</button>
+        </div>
+        <div>
+          <p class="rock-paper-scissors__label-picked">THE COMPUTER PICKED</p>
+          <div class="rock-paper-scissors__card rock-paper-scissors__card--scissors">
+            <img class="rock-paper-scissors__card-image" src="./images/icon-scissors.svg" alt="paper-image">
+          </div>
+        </div>
       </div>
     </section>
     <button class="rock-paper-scissors__rules">RULLES</button>
