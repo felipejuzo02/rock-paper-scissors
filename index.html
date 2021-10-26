@@ -23,37 +23,37 @@
         <div class="rock-paper-scissors__score">
           <div class="rock-paper-scissors__score-text">
             <p class="rock-paper-scissors__score-label">SCORE</p>
-            <p class="rock-paper-scissors__score-point">12</p>
+            <p class="rock-paper-scissors__score-point" data-score>0</p>
           </div>
         </div>
       </div>
     </section>
     <section class="rock-paper-scissors__content">
-      <div class="rock-paper-scissors__content-game">
-        <div class="rock-paper-scissors__card rock-paper-scissors__card--paper">
+      <div class="rock-paper-scissors__content-game" id="content-game">
+        <div class="rock-paper-scissors__card rock-paper-scissors__card--paper" data-paper>
           <img class="rock-paper-scissors__card-image" src="./images/icon-paper.svg" alt="paper-image">
         </div>
-        <div class="rock-paper-scissors__card rock-paper-scissors__card--rock">
+        <div class="rock-paper-scissors__card rock-paper-scissors__card--rock" data-rock>
           <img class="rock-paper-scissors__card-image" src="./images/icon-rock.svg" alt="paper-image">
         </div>
-        <div class="rock-paper-scissors__card rock-paper-scissors__card--scissors">
+        <div class="rock-paper-scissors__card rock-paper-scissors__card--scissors" data-scissors>
           <img class="rock-paper-scissors__card-image" src="./images/icon-scissors.svg" alt="paper-image">
         </div>
       </div>
-      <div class="rock-paper-scissors__content-result">
+      <div class="rock-paper-scissors__content-result rock-paper-scissors__content-result--invisible" id="content-result">
         <div>
           <p class="rock-paper-scissors__label-picked">YOU PICKED</p>
-          <div class="rock-paper-scissors__card rock-paper-scissors__card--paper">
+          <div class="rock-paper-scissors__card rock-paper-scissors__card--paper" data-picked>
             <img class="rock-paper-scissors__card-image" src="./images/icon-paper.svg" alt="paper-image">
           </div>
         </div>
         <div>
-          <p class="rock-paper-scissors__label-result">YOU WIN</p>
-          <button class="rock-paper-scissors__play-again">PLAY AGAIN</button>
+          <p class="rock-paper-scissors__label-result" data-result>YOU WIN</p>
+          <button class="rock-paper-scissors__play-again" id="play-again">PLAY AGAIN</button>
         </div>
         <div>
           <p class="rock-paper-scissors__label-picked">THE COMPUTER PICKED</p>
-          <div class="rock-paper-scissors__card rock-paper-scissors__card--scissors">
+          <div class="rock-paper-scissors__card rock-paper-scissors__card--scissors" data-computer>
             <img class="rock-paper-scissors__card-image" src="./images/icon-scissors.svg" alt="paper-image">
           </div>
         </div>
@@ -61,5 +61,8 @@
     </section>
     <button class="rock-paper-scissors__rules">RULLES</button>
   </main>
+
+  <script src="./script/playAgain.js"></script>
+  <script type="module" src="./script/game.js"></script>
 </body>
 </html>

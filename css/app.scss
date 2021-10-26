@@ -69,7 +69,10 @@ $scissors-gradient: linear-gradient(90deg, #ec9e0e, #eca922);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+
+    &--invisible {
+      display: none;
+    }
   }
 
   &__content-result {
@@ -81,7 +84,10 @@ $scissors-gradient: linear-gradient(90deg, #ec9e0e, #eca922);
     transform: translate(-50%, -50%);
     justify-content: space-between;
     width: 600px;
-    // display: none;
+
+    &--invisible {
+      display: none;
+    }
   }
 
   &__label-picked {
